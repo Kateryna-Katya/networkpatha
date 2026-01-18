@@ -6,22 +6,26 @@
   z-index: 999;
   width: 100%;
   height: auto;
-  backdrop-filter: blur(12px);
-  background: linear-gradient(166deg, #e8ba30 0%, #ff5f00 100%);
+  backdrop-filter: blur(4px);
+  background: rgba(3, 124, 60, 0.2);
 }
 .header-up{
+
   backdrop-filter: blur(4px);
-background: #ffe100;
+  background: rgba(3, 124, 60, 0.5);
 padding: 10px 20px;
-border-bottom: 6px solid #fff;
+border-bottom: 6px solid inherit;
 }
 .header-text{
   font-weight: 400;
-font-size: 10px;
+font-size: 14px;
 line-height: 120%;
-color: #000;
+color: #fff;
+text-align: left;
 }
 .header-container {
+  backdrop-filter: blur(12px);
+background: #ea2b74;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -48,7 +52,7 @@ color: #000;
 .modal {
   display: none;
   backdrop-filter: blur(12px);
-  background: linear-gradient(166deg, #e8ba30 0%, #ff5f00 100%);
+  background: #ea2b74;
   padding: 160px 60px;
   width: 100%;
   height: auto;

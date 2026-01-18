@@ -27,7 +27,7 @@ background: #fff;
   margin-top: 20px;
   box-sizing: border-box;
   border: none;
-  background: linear-gradient(166deg, #001f7b 0%, #278ac4 100%);
+  background: linear-gradient(166deg, #e83080 0%, #f00 100%);
   border-radius: 6px;
   padding: 10px 16px;
   width: 333px;
@@ -60,5 +60,9 @@ justify-content: space-between;
 }
 .btn-accept{
   margin-top: 0;
+  border-radius: 6px;
+padding: 10px 16px;
+width: 227px;
+height: 44px;
 }
 }
