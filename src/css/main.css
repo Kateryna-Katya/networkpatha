@@ -6,20 +6,21 @@
 }
 .hero-title{
     font-family: "Afacad", sans-serif;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 1.08333;
-        text-transform: uppercase;
-        text-align: center;
-        color: #fff;
+    font-weight: 950;
+    font-size: 48px;
+    line-height: 108%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
         margin-top: 90px;
+        text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 
 }
 .hero-span{
-    background: linear-gradient(166deg, #001f7b 0%, #278ac4 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+  background: linear-gradient(166deg, #e83080 0%, #f00 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .hero-list{
     margin-top: 64px;
@@ -42,7 +43,7 @@
     border: 1px solid transparent;
 
     background:
-        linear-gradient(180deg, #001f7b 0%, #2aa0ee 100%) padding-box,
+    linear-gradient(180deg, #568b0e 0%, #1d3102 100%) padding-box,
         transparent border-box;
 
     transition: box-shadow 0.3s ease-in-out, background 0.3s ease-in-out;
@@ -50,14 +51,14 @@
 
 .hero-item:hover {
     background:
-        linear-gradient(180deg, #001f7b 0%, #2aa0ee 100%) padding-box,
-        linear-gradient(166deg, #e8ba30 0%, #ff5f00 100%) border-box;
+    linear-gradient(180deg, #02934d 0%, #043019 100%) padding-box,
+    linear-gradient(166deg, #e83080 0%, #f00 100%) border-box;
 
     box-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.4);
 }
 .cost-text{
     font-family: "Afacad", sans-serif;
-        font-weight: 700;
+        font-weight: 800;
         font-size: 24px;
         line-height: 1.33333;
         color: #fff;
@@ -80,7 +81,7 @@
     margin-top: 16px;
     display: flex;
     font-family: "Afacad", sans-serif;
-        font-weight: 700;
+        font-weight: 950;
         font-size: 16px;
         line-height: 1.5;
         text-transform: uppercase;
@@ -91,7 +92,7 @@
         width: 209px;
         height: 48px;
         box-shadow: 0 0 40px 0 rgba(140, 204, 51, 0.15);
-            background: linear-gradient(166deg, #e8ba30 0%, #ff5f00 100%);
+        background: linear-gradient(166deg, #e83080 0%, #f00 100%);
             transition: all 0.3s ease-in-out;
 }
 .hero-link:hover{
@@ -100,6 +101,9 @@ transform: scale(1.1);
 @media only screen and (min-width: 1440px) {
     .hero-section{
         background-image: url("/img/hero/desk.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
     }
     .hero-title{
         font-size: 52px;
@@ -127,15 +131,25 @@ transform: scale(1.1);
     background-size: cover;
     height: 1160px;
 }
+.about-container{
+
+  position: relative;
+}
+.about-img{
+  position: absolute;
+  top:-8%;
+  right: 0;
+}
 .about-title{
+  margin-top: 40px;
     font-family: "Afacad", sans-serif;
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 1.04545;
-        background: linear-gradient(166deg, #001f7b 0%, #278ac4 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 105%;
+    background: linear-gradient(166deg, #e83080 0%, #f00 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .about-text{
     text-align: justify;
@@ -150,11 +164,17 @@ transform: scale(1.1);
     height: 800px;
  }
  .about-container{
-    padding: 221px 399px;
+    padding: 60px 85px;
+ }
+ .about-img{
+  display: none;
  }
 .about-title{
-    font-size: 60px;
+    font-size: 70px;
         line-height: 1.06667;
+        width: 1000px;
+        text-align: left;
+        margin-top: 0;
 }
 .about-text{
     margin-top: 32px;

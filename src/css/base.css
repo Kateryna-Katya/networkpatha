@@ -1,12 +1,13 @@
 body{
+  background: #183002;
   font-family: "Afacad", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.22222;
-    color: #000;
+    color: #fff;
 }
 @media only screen and (min-width: 1440px) {
 body{
-    font-size: 20px;
+    font-size: 24px;
 }
 }
