@@ -6,6 +6,7 @@
 @import url('./cookie-popup.css');
 
 .background{
+  background-color: #fff;
   text-align: left;
   font-weight: 400;
 font-size: 18px;
@@ -14,11 +15,11 @@ text-align: justify;
 color: #000;
 }
 .policies-title{
-  font-weight: 700;
-font-size: 40px;
-line-height: 120%;
-text-align: center;
-color: #001f7b;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: #0d1b03;
 margin-top: 100px;
 margin-bottom: 40px;
 }
